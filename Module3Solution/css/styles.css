@@ -1,0 +1,94 @@
+/* html, body{margin:0px; padding:0px;}
+.container {
+  background-color: grey;
+  margin-right: 0px;
+  margin-left: 0px;
+  width: 100%;
+}
+#header-nav {
+  background-color: grey;
+}
+
+.navbar-brand .brand {
+  color: black;
+  font-size: 200%;
+}
+#collapsable-nav {
+  float: left;
+  clear: both;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  text-align: center;
+}
+.nav-item {
+  border: 1px solid black;
+  text-decoration: none;
+}
+ */
+body {
+  font-size: 16px;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: grey;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-nav {
+  margin: 0px;
+}
+.navbar-collapse {
+  padding: 0px;
+}
+.navbar-brand {
+  padding-top: 25px;
+  margin-bottom: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-size: 1.5em;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: black;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  background-color: white;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+  border: 1px solid black;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+.menu-header {
+  text-align: center;
+}
+.menu-item {
+  background-color: #b6b8b7;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.menu-item-title {
+  text-align: center;
+}
